@@ -15,29 +15,36 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/1.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/1.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/1-mobile.jpg')}}" class="w-100 mobile-img" alt="...">
 {{--                <div class="carousel-caption d-none d-md-block">--}}
 {{--                    <h5>First slide label</h5>--}}
 {{--                    <p>Some representative placeholder content for the first slide.</p>--}}
 {{--                </div>--}}
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/2.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/2.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/2-mobile.jpg')}}" class="w-100 mobile-img" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/3.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/3.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/3.jpg')}}" class="w-100 mobile-img" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/4.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/4.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/4-mobile.jpg')}}" class="w-100 mobile-img" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/5.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/5.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/5.jpg')}}" class="w-100 mobile-img" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/6.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/6.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/6-mobile.jpg')}}" class="w-100 mobile-img" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{asset('storage/home/carousel/7.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('storage/home/carousel/7.jpg')}}" class="w-100 desktop-img" alt="...">
+                <img src="{{asset('storage/home/carousel/7.jpg')}}" class="w-100 mobile-img" alt="...">
             </div>
         </div>
 
