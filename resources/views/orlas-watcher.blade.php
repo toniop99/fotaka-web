@@ -8,10 +8,10 @@
     <script type="text/javascript" src="{{asset($data['class']['orla']['path'])}}/assets/videodata.js"></script>
 @endpush
 @section('content')
-    <a href="{{ url('orlas/school/' . $data['name'])}}" role="button" class="btn btn-primary">Atrás</a>
     <div id=lxcontainer>
         <canvas id="lxspread_canvas" width="100%" height="100%" style="padding:10px;"></canvas>
     </div>
+    <a href="{{ url('orlas/school/' . $data['name'])}}" role="button" class="btn btn-primary">Atrás</a>
 @endsection
 
 @push('page-script')

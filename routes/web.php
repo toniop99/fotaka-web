@@ -19,7 +19,7 @@ Route::get('/{home?}', function () {
 })->where('home', '(inicio|index|home)')->name('home');
 
 
-Route::get('/orlas', function() {
+Route::get('/orlas-services', function() {
     return view('orlas');
 })->name('orlas');
 
