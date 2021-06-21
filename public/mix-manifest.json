@@ -1,0 +1,7 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/manifests/homeManifest.js": "/js/manifests/homeManifest.js",
+    "/js/service-worker.js": "/js/service-worker.js",
+    "/js/manifests/orlasManifest.js": "/js/manifests/orlasManifest.js",
+    "/css/app.css": "/css/app.css"
+}
