@@ -23,6 +23,10 @@ Route::get('/orlas', function() {
     return view('orlas');
 })->name('orlas');
 
+Route::get('/contacto', function() {
+    return view('contact');
+})->name('contact');
+
 Route::get('/orlas/school/{schoolName}', SchoolSectionController::class)->name('orlas_school');
 Route::get('/orlas/school/{schoolName}/promotion/{promotion}/id/{id}', 'App\Http\Controllers\OrlasWatcherSectionController@getOrla')->name('orlas_watcher');
 Route::post('/orlas/school/{schoolName}/promotion/{promotion}/id/{id}/login', 'App\Http\Controllers\OrlasWatcherSectionController@login')->name('orlas-login');
