@@ -45,6 +45,7 @@ class EloquentSchoolRepository implements SchoolRepository
                 [
                     'classes' => function($q) {
                         $q->orderBy('promotion', 'desc');
+                        $q->orderBy('name', 'asc');
                     },
                     'classes.orla'
                 ]

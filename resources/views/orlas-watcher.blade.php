@@ -11,13 +11,21 @@
     <div id=lxcontainer>
         <canvas id="lxspread_canvas" width="100%" height="100%" style="padding:10px;"></canvas>
     </div>
-    <a href="{{ url('orlas/school/' . $data['name'])}}" role="button" class="btn btn-primary">Atrás</a>
+    <a id="back-button" href="{{ url('orlas/school/' . $data['name'])}}" role="button" class="btn btn-primary">Atrás</a>
 @endsection
 
 @push('page-script')
     <script src="{{asset('js/manifests/orlasManifest.js')}}"></script>
 
     <script type="text/javascript">
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+            // true for mobile device
+
+        }else{
+            // false for not mobile device
+            document.querySelector('#back-button').style.display = 'none';
+        }
+
         window.onload = function () {
             document.querySelector('#footer').style.display = 'none';
             document.querySelector('.navbar').style.display = 'none';

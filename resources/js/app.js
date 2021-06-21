@@ -1,15 +1,5 @@
 require('./bootstrap');
 
-if ('serviceWorker' in navigator) {
-    // Register a service worker hosted at the root of the
-    // site using the default scope.
-    navigator.serviceWorker.register('/js/service-worker.js').then(function(registration) {
-    }, /*catch*/ function(error) {
-    });
-} else {
-    console.log('Service workers are not supported.');
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     axios.get('/api/orlas/schools').then(({status, data}) => {
 
