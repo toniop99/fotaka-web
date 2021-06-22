@@ -16,6 +16,6 @@ mix.js('resources/js/app.js', 'public/js')
     ]);
 
 mix.js('resources/js/manifests/homeManifest.js','public/js/manifests/homeManifest.js')
-mix.js('resources/js/service-worker.js','public/js/service-worker.js')
+mix.js('resources/js/service-worker.js','public/service-worker.js')
 
 mix.js('resources/js/manifests/orlasManifest.js', 'public/js/manifests/orlasManifest.js')
