@@ -3,7 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use Src\School\EloquentSchoolRepository;
+use Src\Web\School\EloquentSchoolRepository;
 
 class RemoveSchool extends Command
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Src\Grade;
+namespace Src\Web\Grade;
 
 
 use Src\shared\Domain\Exceptions\DomainError;

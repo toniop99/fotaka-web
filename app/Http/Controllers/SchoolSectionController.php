@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Src\School\EloquentSchoolRepository;
 use Src\School\Exceptions\ClassNotFoundException;
+use Src\Web\School\EloquentSchoolRepository;
 
 class SchoolSectionController extends Controller
 {

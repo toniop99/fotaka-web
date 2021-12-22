@@ -5,7 +5,6 @@ namespace Src\shared\Domain\Exceptions;
 
 
 use DomainException;
-use Throwable;
 
 abstract class DomainError extends DomainException
 {
@@ -15,7 +14,7 @@ abstract class DomainError extends DomainException
     }
 
     abstract public function errorCode(): string;
-    
+
     abstract protected function errorMessage(): string;
 
 }

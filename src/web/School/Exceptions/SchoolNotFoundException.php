@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Src\School\Exceptions;
+namespace Src\Web\School\Exceptions;
 
 
 use Src\shared\Domain\Exceptions\DomainError;

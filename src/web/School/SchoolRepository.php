@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Src\School;
+namespace Src\Web\School;
 
 
 interface SchoolRepository

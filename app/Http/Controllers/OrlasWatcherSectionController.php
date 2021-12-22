@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Hash;
-use Src\Grade\GradeNotFoundException;
-use Src\School\EloquentSchoolRepository;
+use Src\Web\Grade\GradeNotFoundException;
+use Src\Web\School\EloquentSchoolRepository;
 
 class OrlasWatcherSectionController extends Controller
 {

@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Src\School;
+namespace Src\Web\School;
 
 
 use App\Models\Grade;
 use App\Models\Orla;
 use App\Models\School;
 use Exception;
-use Src\School\Exceptions\SchoolNotFoundException;
+use Src\Web\School\Exceptions\SchoolNotFoundException;
 
 class EloquentSchoolRepository implements SchoolRepository
 {

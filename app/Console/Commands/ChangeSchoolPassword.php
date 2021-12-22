@@ -5,8 +5,8 @@ namespace App\Console\Commands;
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
-use Src\School\EloquentSchoolRepository;
-use Src\School\Exceptions\SchoolNotFoundException;
+use Src\Web\School\EloquentSchoolRepository;
+use Src\Web\School\Exceptions\SchoolNotFoundException;
 
 class ChangeSchoolPassword extends Command
 {

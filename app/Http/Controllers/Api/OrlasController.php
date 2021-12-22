@@ -3,8 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Src\School\EloquentSchoolRepository;
+use Src\Web\School\EloquentSchoolRepository;
 
 class OrlasController extends Controller
 {

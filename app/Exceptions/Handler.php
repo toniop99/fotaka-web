@@ -3,8 +3,8 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-use Src\Grade\GradeNotFoundException;
-use Src\School\Exceptions\SchoolNotFoundException;
+use Src\Web\Grade\GradeNotFoundException;
+use Src\Web\School\Exceptions\SchoolNotFoundException;
 use Throwable;
 
 class Handler extends ExceptionHandler

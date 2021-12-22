@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
-use Src\School\EloquentSchoolRepository;
+use Src\Web\School\EloquentSchoolRepository;
 
 class AddSchool extends Command
 {
